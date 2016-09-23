@@ -19,7 +19,7 @@
             var timer = setInterval(function () {
                 i++;
                 var httprequest = new XMLHttpRequest();
-                var url = "./BadAppleText/_"+i+".txt";
+                var url = "./BadAppleText/_"+i+".html";
                 httprequest.open("GET",url,true);
                 httprequest.send(null);
                 httprequest.onreadystatechange = function () {
