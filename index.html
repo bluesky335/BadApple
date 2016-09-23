@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BadApple By BlueSky335</title>
+    <script>
+
+        window.onload=function () {
+           document.body.onclick=play;
+        };
+
+        function play() {
+            var musicPlayer = document.getElementById("musicPlayer");
+            if (!musicPlayer.paused){
+                return;
+            }
+            var i = 0;
+            var playWindow = document.getElementById("playWindow");
+            var timer = setInterval(function () {
+                i++;
+                var httprequest = new XMLHttpRequest();
+                var url = "./BadAppleText/_"+i+".txt";
+                httprequest.open("GET",url,true);
+                httprequest.send(null);
+                httprequest.onreadystatechange = function () {
+                    if(httprequest.readyState == 4){
+                        if (musicPlayer.paused){
+                            musicPlayer.play();
+                        }
+                        playWindow.innerHTML = httprequest.responseText;
+                    }
+                };
+                if (i==6574){
+                    clearInterval(timer);
+                }
+            },33);
+        }
+
+    </script>
+</head>
+<body>
+<audio id="musicPlayer" src="BadAppleMp3/BadApple.mp3">
+</audio>
+<p id = "playWindow">
+BadApple MadeBy BlueSky;
+</p>
+</body>
+</html>
