@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>BadApple By BlueSky335</title>
+
     <style>
         .lightThem{
             width: 100%;
@@ -89,6 +90,7 @@
             width: 90px;
         }
     </style>
+    <script src="jquery-3.1.1.min.js"></script>
     <script>
         var willPlayDataDic = {};
         var erroFrameCount= 0;
@@ -98,7 +100,7 @@
         var PlayTimer=null;
         var playButton;
         var stopButton;
-        window.onload=function () {
+        $(function () {
             var changeThemButton = document.getElementById("changeThem");
             playButton = document.getElementById("playButton");
             stopButton = document.getElementById("stopButton");
@@ -128,7 +130,7 @@
                 }
             },1);
 
-        };
+        });
 
         function getData(url,httprequest) {
             var errorText =  document.getElementById("errorText");
@@ -218,6 +220,32 @@
 <body class="lightThem">
 <audio id="musicPlayer" src="./BadAppleMp3/BadApple.mp3">
 </audio>
+<div id="controlDiv">
+    <p id="controlDivTitle">BadApple-播放控制</p>
+    <div align="center">有屏幕的地方就有BadApple<br>MadeBy：BlueSky335<br>
+
+    </div>
+    <input id="changeThem" value="关灯" type="button"/>
+    <div id="progress">
+        <div id="playProgress"></div>
+        <div id="downloadProgress"></div>
+    </div>
+    <p id="playProgressText">播放进度:0/6570 【0.00%】</p>
+    <p id="downloadProgressText">缓冲进度:0/6570 【0.00%】</p>
+    <p id="errorText">获取失败的帧：0</p>
+    <img src="images/play.png" id="playButton"><img id="stopButton" src="images/stop.png">
+    <p>
+        <!--<b>演示视频：</b><a href="#">bilibili（av12345）</a><br>-->
+        <b>源代码：</b><a href="https://github.com/bluesky335/BadApple" target="_blank">github.com/bluesky335/BadApple</a><br>
+        <b>我的个人主页(建设中)：</b><a href="http://bluesky335.oschina.io/" target="_blank">bluesky335.gitoschina.io</a><br>
+    <h2> <b>关注我：</b></h2>
+    <a href="http://space.bilibili.com/4200969" target="_blank"><img src="images/bilibili.jpg" class="icon"></a>
+    <a href="http://blog.csdn.net/l947818238" target="_blank"><img src="images/CSDN.jpg" class="icon"></a>
+    <a href="https://github.com/bluesky335" target="_blank"><img src="images/github.jpg" class="icon"></a>
+    <a href="http://weibo.com/bluesky335" target="_blank"><img src="images/weibo.jpg" class="icon"></a>
+    </p>
+</div>
+<div style="width: 100%;height: 640px;" >
 <p id = "playWindow">
     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<br>
     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<br>
@@ -258,30 +286,11 @@
     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<br>
     &ensp;<br>
 </p>
-<div id="controlDiv">
-    <p id="controlDivTitle">BadApple-播放控制</p>
-    <div align="center">有屏幕的地方就有BadApple<br>MadeBy：BlueSky335<br>
-
-    </div>
-    <input id="changeThem" value="关灯" type="button"/>
-    <div id="progress">
-        <div id="playProgress"></div>
-        <div id="downloadProgress"></div>
-    </div>
-    <p id="playProgressText">播放进度:0/6570 【0.00%】</p>
-    <p id="downloadProgressText">缓冲进度:0/6570 【0.00%】</p>
-    <p id="errorText">获取失败的帧：0</p>
-    <img src="images/play.png" id="playButton"><img id="stopButton" src="images/stop.png">
-    <p>
-        <!--<b>演示视频：</b><a href="#">bilibili（av12345）</a><br>-->
-        <b>源代码：</b><a href="https://github.com/bluesky335/BadApple" target="_blank">github.com/bluesky335/BadApple</a><br>
-        <b>我的个人主页(建设中)：</b><a href="http://bluesky335.oschina.io/" target="_blank">bluesky335.gitoschina.io</a><br>
-        <h2> <b>关注我：</b></h2>
-        <a href="http://space.bilibili.com/4200969" target="_blank"><img src="images/bilibili.jpg" class="icon"></a>
-        <a href="http://blog.csdn.net/l947818238" target="_blank"><img src="images/CSDN.jpg" class="icon"></a>
-        <a href="https://github.com/bluesky335" target="_blank"><img src="images/github.jpg" class="icon"></a>
-        <a href="http://weibo.com/bluesky335" target="_blank"><img src="images/weibo.jpg" class="icon"></a>
-    </p>
 </div>
+
+<!--统计代码-->
+<script language="javascript" type="text/javascript" src="http://js.users.51.la/18987199.js"></script>
+<noscript><a href="http://www.51.la/?18987199" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/18987199.asp" style="border:none" /></a></noscript>
+<!--统计代码-->
 </body>
 </html>
