@@ -101,7 +101,7 @@
         var playButton;
         var stopButton;
         $(function () {
-            if(detectOS=='Mac'){
+            if(detectOS()=='Mac'){
                 $('#playWindow').css({'width':740,'height':535,'font-family':'monospace','font-size':12});
             }
             var changeThemButton = document.getElementById("changeThem");
