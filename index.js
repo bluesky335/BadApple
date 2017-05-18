@@ -16,14 +16,14 @@ $(function () {
     $('#changeThem').click(function () {
         if($('body').attr("class")=='lightThem'){
             $('body').attr("class","darckThem");
-            $(this).text("开灯");
+            $(this).attr("value","开灯");
             $('#playWindow').css({'background-color':'rgba(0,0,0,0.6)','box-shadow':'0 0 30px red',
                 'border':'1px solid red'});
             $('#controlDiv').css({'background-color':'rgba(0,0,0,0.6)','box-shadow':'0 0 30px red',
                 'border':'1px solid red'});
         }else {
             $('body').attr("class","lightThem");
-            $(this).text("关灯");
+            $(this).attr("value","关灯");
             $('#playWindow').css({'background-color':'rgba(255,255,255,0.6)','box-shadow':'0 0 10px black',
                 'border':'1px solid black'});
             $('#controlDiv').css({'background-color':'rgba(255,255,255,0.8)','box-shadow':'0 0 10px black',
