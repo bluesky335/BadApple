@@ -165,33 +165,33 @@
         });
 
         function getData(url,httprequest) {
-//            var errorText =  document.getElementById("errorText");
-//            var downloadProgressDiv = document.getElementById("downloadProgress");
-//            var downloadProgressText = document.getElementById("downloadProgressText");
-//            httprequest.open("GET", url, true);
-//            httprequest.send(null);
-//            httprequest.onreadystatechange = function () {
-//                if (this.readyState == 4) {
-//                    if(this.status==200){
-//                        willPlayDataDic[""+this.index]=this.responseText;
-//                        downloadProgres+=1;
-//                        downloadProgressDiv.style.width = parseFloat(downloadProgres)/6574.0*100+"%";
-//                        downloadProgressText.innerHTML = "缓冲进度:"+downloadProgres+"/6574 【"+ (downloadProgres/6574.0*100).toFixed(2)+"%】";
-//                        if(httprequest.erroCount!=0){
-//                            erroFrameCount--;
-//                        }
-//                    }else{
-//                        if(httprequest.erroCount==0){
-//                            erroFrameCount++;
-//                            errorText.innerHTML = "获取失败的帧："+erroFrameCount;
-//                        }
-//                        if (httprequest.erroCount+1<4){
-//                            httprequest.erroCount++;
-//                            getData(url,httprequest);
-//                        }
-//                    }
-//                }
-//            };
+            var errorText =  document.getElementById("errorText");
+            var downloadProgressDiv = document.getElementById("downloadProgress");
+            var downloadProgressText = document.getElementById("downloadProgressText");
+            httprequest.open("GET", url, true);
+            httprequest.send(null);
+            httprequest.onreadystatechange = function () {
+                if (this.readyState == 4) {
+                    if(this.status==200){
+                        willPlayDataDic[""+this.index]=this.responseText;
+                        downloadProgres+=1;
+                        downloadProgressDiv.style.width = parseFloat(downloadProgres)/6574.0*100+"%";
+                        downloadProgressText.innerHTML = "缓冲进度:"+downloadProgres+"/6574 【"+ (downloadProgres/6574.0*100).toFixed(2)+"%】";
+                        if(httprequest.erroCount!=0){
+                            erroFrameCount--;
+                        }
+                    }else{
+                        if(httprequest.erroCount==0){
+                            erroFrameCount++;
+                            errorText.innerHTML = "获取失败的帧："+erroFrameCount;
+                        }
+                        if (httprequest.erroCount+1<4){
+                            httprequest.erroCount++;
+                            getData(url,httprequest);
+                        }
+                    }
+                }
+            };
         }
 
         function stopPlay() {
@@ -302,7 +302,7 @@ function detectOS() {
     <a href="http://weibo.com/bluesky335" target="_blank"><img src="images/weibo.jpg" class="icon"></a>
     </p>
 </div>
-<div style="width: 100%;height: 640px;" >
+<div style="width: 100%;height: 950px;" >
 <p id = "playWindow">
     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<br>
     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<br>
@@ -344,7 +344,7 @@ function detectOS() {
     &ensp;<br>
 </p>
 </div>
-<div style="background-color: rgba(255,255,255,0.7)">
+<div style="background-color: rgba(255,255,255,0.8)">
 
 <!--高速版-->
 <div id="SOHUCS" sid="请将此处替换为配置SourceID的语句"></div>
