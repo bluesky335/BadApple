@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b858e1c2-ab5f-4dac-bfc5-0d87b7025e79" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_10.html" afterPath="$PROJECT_DIR$/BadAppleText/_10.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_11.html" afterPath="$PROJECT_DIR$/BadAppleText/_11.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_20.html" afterPath="$PROJECT_DIR$/BadAppleText/_20.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_22.html" afterPath="$PROJECT_DIR$/BadAppleText/_22.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_27.html" afterPath="$PROJECT_DIR$/BadAppleText/_27.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_2751.html" afterPath="$PROJECT_DIR$/BadAppleText/_2751.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_2753.html" afterPath="$PROJECT_DIR$/BadAppleText/_2753.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_2754.html" afterPath="$PROJECT_DIR$/BadAppleText/_2754.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_2761.html" afterPath="$PROJECT_DIR$/BadAppleText/_2761.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_2762.html" afterPath="$PROJECT_DIR$/BadAppleText/_2762.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_2763.html" afterPath="$PROJECT_DIR$/BadAppleText/_2763.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_2764.html" afterPath="$PROJECT_DIR$/BadAppleText/_2764.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_2774.html" afterPath="$PROJECT_DIR$/BadAppleText/_2774.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_29.html" afterPath="$PROJECT_DIR$/BadAppleText/_29.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_30.html" afterPath="$PROJECT_DIR$/BadAppleText/_30.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_31.html" afterPath="$PROJECT_DIR$/BadAppleText/_31.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_32.html" afterPath="$PROJECT_DIR$/BadAppleText/_32.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_33.html" afterPath="$PROJECT_DIR$/BadAppleText/_33.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_3335.html" afterPath="$PROJECT_DIR$/BadAppleText/_3335.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_39.html" afterPath="$PROJECT_DIR$/BadAppleText/_39.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_43.html" afterPath="$PROJECT_DIR$/BadAppleText/_43.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_450.html" afterPath="$PROJECT_DIR$/BadAppleText/_450.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_453.html" afterPath="$PROJECT_DIR$/BadAppleText/_453.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_4571.html" afterPath="$PROJECT_DIR$/BadAppleText/_4571.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_4600.html" afterPath="$PROJECT_DIR$/BadAppleText/_4600.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_6543.html" afterPath="$PROJECT_DIR$/BadAppleText/_6543.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_6553.html" afterPath="$PROJECT_DIR$/BadAppleText/_6553.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_6554.html" afterPath="$PROJECT_DIR$/BadAppleText/_6554.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_6563.html" afterPath="$PROJECT_DIR$/BadAppleText/_6563.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_6564.html" afterPath="$PROJECT_DIR$/BadAppleText/_6564.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BadAppleText/_6566.html" afterPath="$PROJECT_DIR$/BadAppleText/_6566.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="BadApple.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +14,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -56,11 +26,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="135" column="23" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
+            <state relative-caret-position="4020">
+              <caret line="268" column="54" lean-forward="false" selection-start-line="268" selection-start-column="54" selection-end-line="268" selection-end-column="54" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#19845#19851#0" expanded="true" />
+                <element signature="e#23899#23905#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/BadAppleText/2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/jquery-3.1.1.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,21 +85,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="969" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -144,15 +105,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BadApple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="BadApple" />
@@ -166,6 +120,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,6 +128,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -215,7 +171,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -258,6 +214,7 @@
       <workItem from="1480862523393" duration="3511000" />
       <workItem from="1480871076351" duration="77000" />
       <workItem from="1480941763265" duration="836000" />
+      <workItem from="1495119514419" duration="1329000" />
     </task>
     <task id="LOCAL-00001" summary="文件后缀名更新">
       <created>1474644117369</created>
@@ -298,13 +255,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47483000" />
+    <option name="totallyTimeSpent" value="48812000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="969" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25183016" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20714286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14285715" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -322,6 +279,9 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -346,11 +306,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2565">
-          <caret line="135" column="23" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#19845#19851#0" expanded="true" />
+            <element signature="e#23899#23905#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -358,7 +319,7 @@
     <entry file="file://$PROJECT_DIR$/BadAppleText/2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -366,7 +327,35 @@
     <entry file="file://$PROJECT_DIR$/jquery-3.1.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="135" column="23" lean-forward="false" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#19845#19851#0" expanded="true" />
+            <element signature="e#23899#23905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BadAppleText/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery-3.1.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -374,10 +363,11 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#19845#19851#0" expanded="true" />
+            <element signature="e#23899#23905#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -385,7 +375,7 @@
     <entry file="file://$PROJECT_DIR$/jquery-3.1.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -393,10 +383,11 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#19845#19851#0" expanded="true" />
+            <element signature="e#23899#23905#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -404,7 +395,7 @@
     <entry file="file://$PROJECT_DIR$/jquery-3.1.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -412,10 +403,11 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#19845#19851#0" expanded="true" />
+            <element signature="e#23899#23905#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -423,10 +415,11 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#19845#19851#0" expanded="true" />
+            <element signature="e#23899#23905#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -434,10 +427,11 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#19845#19851#0" expanded="true" />
+            <element signature="e#23899#23905#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -445,10 +439,11 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#19845#19851#0" expanded="true" />
+            <element signature="e#23899#23905#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -456,10 +451,11 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#19845#19851#0" expanded="true" />
+            <element signature="e#23899#23905#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -467,10 +463,11 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#19845#19851#0" expanded="true" />
+            <element signature="e#23899#23905#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -482,7 +479,7 @@
     <entry file="file://$PROJECT_DIR$/jquery-3.1.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -490,18 +487,19 @@
     <entry file="file://$PROJECT_DIR$/BadAppleText/2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="135" column="23" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
+        <state relative-caret-position="4020">
+          <caret line="268" column="54" lean-forward="false" selection-start-line="268" selection-start-column="54" selection-end-line="268" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#19845#19851#0" expanded="true" />
+            <element signature="e#23899#23905#0" expanded="true" />
           </folding>
         </state>
       </provider>
