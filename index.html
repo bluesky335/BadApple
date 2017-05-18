@@ -9,41 +9,49 @@
         .lightThem{
             width: 100%;
             height: 100%;
-            background-color: white;
+            /*background-color: white;*/
+            background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1495133666395&di=1bf661a12b4312eb35b1b7d871545fe2&imgtype=0&src=http%3A%2F%2Fimg1.3lian.com%2Fimg013%2Fv5%2F55%2Fd%2F33.jpg");
             color: black;
+            background-size: 100%;
             border-color: black;
         }
         .darckThem{
             width: 100%;
             height: 100%;
-            background-color: black;
+            /*background-color: black;*/
+            background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1495133511513&di=884832d35d041080f1bb423d14cd69d0&imgtype=0&src=http%3A%2F%2Fp0.qhimg.com%2Ft016339c3fe9c06d0a6.jpg");
+            background-size: 100%;
             color: white;
             border-color: white;
         }
 
         #playWindow{
-            border-radius: 10px;
-            font-size:14px;
-            font-family: NSimsun;
-        }
-        #playWindow{
             width: 714px;
             height: 608px;
-            margin: 0;
             padding: 5px;
             float: left;
-            border:  5px solid;
+            border:1px solid black;
+            border-radius: 10px;
+            font-size:14px;
+            background-color:rgba(255,255,255,0.6);
+            font-family: NSimsun;
+            box-shadow: 0 0 10px black;
+            margin-left:20px;
+            margin-top:10px;
         }
         #controlDiv{
+            border:1px solid black;
             border-radius: 10px;
             margin-left: 20px;
             position: absolute;
             right: 20px;
-            background-color: rgba(211, 211, 211, 0.31);
+            background-color: rgba(255, 255, 255, 0.8);
             width: 400px;
-            height:620px;
-            border: 1px solid;
+            height:600px;
             padding: 5px;
+            box-shadow: 0 0 10px black;
+            margin-right:10px;
+            margin-top:10px;
         }
         #controlDivTitle{
             margin-top: 10px;
@@ -90,6 +98,18 @@
             border-radius: 20px;
             width: 90px;
         }
+        #playProgressText{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        #downloadProgressText{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        #errorText{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
     </style>
     <script src="jquery-3.1.1.min.js"></script>
     <script>
@@ -112,8 +132,16 @@
                 if (document.body.className=="lightThem"){
                     document.body.className = "darckThem";
                     this.value="开灯";
+                    $('#playWindow').css({'background-color':'rgba(0,0,0,0.6)','box-shadow':'0 0 30px red',
+                        'border':'1px solid red'});
+                    $('#controlDiv').css({'background-color':'rgba(0,0,0,0.6)','box-shadow':'0 0 30px red',
+                        'border':'1px solid red'});
                 }else {
                     document.body.className="lightThem";
+                    $('#playWindow').css({'background-color':'rgba(255,255,255,0.6)','box-shadow':'0 0 10px black',
+                        'border':'1px solid black'});
+                    $('#controlDiv').css({'background-color':'rgba(255,255,255,0.8)','box-shadow':'0 0 10px black',
+                        'border':'1px solid black'});
                     this.value="关灯";
                 }
                 this.blur();
@@ -137,33 +165,33 @@
         });
 
         function getData(url,httprequest) {
-            var errorText =  document.getElementById("errorText");
-            var downloadProgressDiv = document.getElementById("downloadProgress");
-            var downloadProgressText = document.getElementById("downloadProgressText");
-            httprequest.open("GET", url, true);
-            httprequest.send(null);
-            httprequest.onreadystatechange = function () {
-                if (this.readyState == 4) {
-                    if(this.status==200){
-                        willPlayDataDic[""+this.index]=this.responseText;
-                        downloadProgres+=1;
-                        downloadProgressDiv.style.width = parseFloat(downloadProgres)/6574.0*100+"%";
-                        downloadProgressText.innerHTML = "缓冲进度:"+downloadProgres+"/6574 【"+ (downloadProgres/6574.0*100).toFixed(2)+"%】";
-                        if(httprequest.erroCount!=0){
-                            erroFrameCount--;
-                        }
-                    }else{
-                        if(httprequest.erroCount==0){
-                            erroFrameCount++;
-                            errorText.innerHTML = "获取失败的帧："+erroFrameCount;
-                        }
-                        if (httprequest.erroCount+1<4){
-                            httprequest.erroCount++;
-                            getData(url,httprequest);
-                        }
-                    }
-                }
-            };
+//            var errorText =  document.getElementById("errorText");
+//            var downloadProgressDiv = document.getElementById("downloadProgress");
+//            var downloadProgressText = document.getElementById("downloadProgressText");
+//            httprequest.open("GET", url, true);
+//            httprequest.send(null);
+//            httprequest.onreadystatechange = function () {
+//                if (this.readyState == 4) {
+//                    if(this.status==200){
+//                        willPlayDataDic[""+this.index]=this.responseText;
+//                        downloadProgres+=1;
+//                        downloadProgressDiv.style.width = parseFloat(downloadProgres)/6574.0*100+"%";
+//                        downloadProgressText.innerHTML = "缓冲进度:"+downloadProgres+"/6574 【"+ (downloadProgres/6574.0*100).toFixed(2)+"%】";
+//                        if(httprequest.erroCount!=0){
+//                            erroFrameCount--;
+//                        }
+//                    }else{
+//                        if(httprequest.erroCount==0){
+//                            erroFrameCount++;
+//                            errorText.innerHTML = "获取失败的帧："+erroFrameCount;
+//                        }
+//                        if (httprequest.erroCount+1<4){
+//                            httprequest.erroCount++;
+//                            getData(url,httprequest);
+//                        }
+//                    }
+//                }
+//            };
         }
 
         function stopPlay() {
@@ -316,6 +344,8 @@ function detectOS() {
     &ensp;<br>
 </p>
 </div>
+<div style="background-color: rgba(255,255,255,0.7)">
+
 <!--高速版-->
 <div id="SOHUCS" sid="请将此处替换为配置SourceID的语句"></div>
 <script charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/changyan.js" ></script>
@@ -325,6 +355,8 @@ function detectOS() {
         conf: 'prod_47784fef33d031b5384e1b9066325a65'
     });
 </script>
+
+</div>
 
 </body>
 </html>
